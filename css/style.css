@@ -1,0 +1,196 @@
+body {
+  background-color: #fff;
+  font-family: 'Fira Sans', Arial;
+  margin: 20px;
+}
+
+.node rect {
+  fill-opacity: 1;
+  /*shape-rendering: crispEdges;*/
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+  font-family: 'Fira Sans', Arial;
+  font-size: 11px;
+  text-shadow: -1px -1px 0px #fff,
+    1px -1px 0px #fff,
+    -1px 1px 0px #fff,
+    1px 1px 0px #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: 0.08;
+}
+
+.link:hover {
+  stroke-opacity: 0.2 !important;
+}
+
+.cambridge .link:hover {
+  stroke: #a3c1ad !important;
+}
+
+.oxford .link:hover {
+  stroke: #002147 !important;
+}
+
+.bristol .link:hover {
+  stroke: #a6192e !important;
+}
+
+.manchester .link:hover {
+  stroke: #752095 !important;
+}
+
+.warwick .link:hover {
+  stroke: black !important;
+}
+
+.glasgow .link:hover {
+  stroke: #003855 !important;
+}
+
+.durham .link:hover {
+  stroke: #0038a8 !important;
+}
+
+.edinburgh .link:hover {
+  stroke: #91acdb !important;
+}
+
+.ucl .link:hover {
+  stroke: #583094 !important;
+}
+
+.salford .link:hover {
+  stroke: #0e1f28 !important;
+}
+
+.sussex .link:hover {
+  stroke: #0e1f28 !important;
+}  
+
+.graphic {
+  position: relative;
+  height: auto;
+  margin: 0 auto 50px auto;
+  max-width: 1000px;
+  width: 100%;
+  clear: both;
+}
+
+.header {
+  max-width: 1000px;
+  width: 100%;
+  font-size: 38px;
+  position: relative;
+  line-height: 32px;
+  letter-spacing: -2px;
+  margin: 100px auto 40px auto;
+}
+
+p {
+  font-family: 'Fira Sans', Arial;
+  font-size: 16px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto 60px auto;
+  padding: 0;
+}
+
+.footer {
+  max-width: 1000px;
+  width: 100%;
+  position: relative;
+  margin: 20px auto;
+}
+
+.footer p {
+  font-family: 'Old Standard TT', Times;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+a, a:active, a:link, a:visited {
+  color: #3b3b3b;
+  text-decoration: underline;
+}
+
+.oxford-container {
+  margin-top: -240px;
+}
+
+.bristol-container {
+  margin-top: -70px;
+}
+
+.manchester-container {
+  margin-top: -125px;
+}
+
+.glasgow-container {
+  margin-top: -100px;
+}
+
+.warwick-container {
+  margin-top: -90px;
+}
+
+.durham-container {
+  margin-top: -60px;
+}
+
+.edinburgh-container {
+  margin-top: -60px;
+}
+
+.ucl-container {
+  margin-top: -70px;
+}
+
+.salford-container {
+  margin-top: -70px;
+}
+
+.sussex-container {
+  margin-top: -60px;
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    font-size: 30px;
+  }
+
+  p {
+    padding: 0 16px;
+  }
+}
+
+@media only screen and (max-width: 1013px) {
+  .oxford-container {
+    margin-top: -50px;
+  }
+ 
+  .manchester-container {
+    margin-top: -15px;
+  }
+ 
+  .glasgow-container {
+    margin-top: -20px;
+  }
+ 
+  .bristol-container,
+  .warwick-container,
+  .durham-container,
+  .edinburgh-container,
+  .ucl-container,
+  .salford-container,
+  .sussex-container {
+    margin-top: 0;
+  }
+}

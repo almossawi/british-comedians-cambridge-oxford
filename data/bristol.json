@@ -1,0 +1,11 @@
+{"nodes":[
+  {"name":"University of Bristol","org":"bristol"},
+  {"name":"John Richardson","org":"bristol"},
+  {"name":"David Walliams","org":"bristol"},
+  {"name":"Marcus Brigstocke","org":"bristol"}
+],
+"links":[
+  {"source":1,"target":0,"value":3},
+  {"source":2,"target":0,"value":3},
+  {"source":3,"target":0,"value":3}
+]}

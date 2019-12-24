@@ -1,0 +1,9 @@
+{"nodes":[
+  {"name":"University of Sussex","org":"sussex"},
+  {"name":"Frankie Boyle","org":"sussex"},
+  {"name":"Bob Mortimer","org":"sussex"}
+],
+"links":[
+  {"source":1,"target":0,"value":2},
+  {"source":2,"target":0,"value":2}
+]}

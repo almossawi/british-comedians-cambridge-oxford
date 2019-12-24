@@ -1,0 +1,27 @@
+{"nodes":[
+  {"name":"University of Oxford","org":"oxford"},
+  {"name":"Stewart Lee","org":"oxford"},
+  {"name":"Angus Deayton","org":"oxford"},
+  {"name":"Ian Hislop","org":"oxford"},
+  {"name":"Josie Long","org":"oxford"},
+  {"name":"Victoria Coren Mitchell","org":"oxford"},
+  {"name":"Armando Iannucci","org":"oxford"},
+  {"name":"Rowan Atkinson","org":"oxford"},
+  {"name":"David Baddiel","org":"oxford"},
+  {"name":"Michael Palin","org":"oxford"},
+  {"name":"Terry Jones","org":"oxford"},
+  {"name":"Al Murray","org":"oxford"}
+],
+"links":[
+  {"source":1,"target":0,"value":11},
+  {"source":2,"target":0,"value":11},
+  {"source":3,"target":0,"value":11},
+  {"source":4,"target":0,"value":11},
+  {"source":5,"target":0,"value":11},
+  {"source":6,"target":0,"value":11},
+  {"source":7,"target":0,"value":11},
+  {"source":8,"target":0,"value":11},
+  {"source":9,"target":0,"value":11},
+  {"source":10,"target":0,"value":11},
+  {"source":11,"target":0,"value":11}
+]}

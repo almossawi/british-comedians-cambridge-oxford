@@ -1,0 +1,11 @@
+{"nodes":[
+  {"name":"University of Warwick","org":"warwick"},
+  {"name":"Adam Buxton","org":"warwick"},
+  {"name":"Frank Skinner","org":"warwick"},
+  {"name":"Stephen Merchant","org":"warwick"}
+],
+"links":[
+  {"source":1,"target":0,"value":3},
+  {"source":2,"target":0,"value":3},
+  {"source":3,"target":0,"value":3}
+]}
