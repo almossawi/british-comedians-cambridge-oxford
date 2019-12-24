@@ -14,10 +14,6 @@ body {
   text-shadow: 0 1px 0 #fff;
   font-family: 'Fira Sans', Arial;
   font-size: 11px;
-  text-shadow: -1px -1px 0px #fff,
-    1px -1px 0px #fff,
-    -1px 1px 0px #fff,
-    1px 1px 0px #fff;
 }
 
 .link {
@@ -26,53 +22,9 @@ body {
   stroke-opacity: 0.08;
 }
 
-.link:hover {
-  stroke-opacity: 0.2 !important;
-}
-
 .cambridge .link:hover {
   stroke: #a3c1ad !important;
 }
-
-.oxford .link:hover {
-  stroke: #002147 !important;
-}
-
-.bristol .link:hover {
-  stroke: #a6192e !important;
-}
-
-.manchester .link:hover {
-  stroke: #752095 !important;
-}
-
-.warwick .link:hover {
-  stroke: black !important;
-}
-
-.glasgow .link:hover {
-  stroke: #003855 !important;
-}
-
-.durham .link:hover {
-  stroke: #0038a8 !important;
-}
-
-.edinburgh .link:hover {
-  stroke: #91acdb !important;
-}
-
-.ucl .link:hover {
-  stroke: #583094 !important;
-}
-
-.salford .link:hover {
-  stroke: #0e1f28 !important;
-}
-
-.sussex .link:hover {
-  stroke: #0e1f28 !important;
-}  
 
 .graphic {
   position: relative;
