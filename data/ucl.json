@@ -1,7 +1,7 @@
 {"nodes":[
   {"name":"University College London","org":"ucl"},
-  {"name":"Ricky Gervais","org":"ucl"},
-  {"name":"Jonathan Ross","org":"ucl"}
+  {"name":"Jonathan Ross","org":"ucl"},
+  {"name":"Ricky Gervais","org":"ucl"}
 ],
 "links":[
   {"source":1,"target":0,"value":2},

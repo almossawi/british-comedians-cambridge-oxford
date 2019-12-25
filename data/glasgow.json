@@ -1,7 +1,7 @@
 {"nodes":[
   {"name":"University of Glasgow","org":"glasgow"},
-  {"name":"Kevin Bridges","org":"glasgow"},
   {"name":"Susan Calman","org":"glasgow"},
+  {"name":"Kevin Bridges","org":"glasgow"},
   {"name":"Armando Iannucci","org":"glasgow"}
 ],
 "links":[

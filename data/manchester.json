@@ -1,10 +1,10 @@
 {"nodes":[
   {"name":"University of Manchester","org":"manchester"},
-  {"name":"Tony Hawks","org":"manchester"},
   {"name":"Jack Whitehall","org":"manchester"},
-  {"name":"Rhys James","org":"manchester"},
+  {"name":"Jessica Knappett","org":"manchester"},
   {"name":"Josh Widdicombe","org":"manchester"},
-  {"name":"Jessica Knappett","org":"manchester"}
+  {"name":"Rhys James","org":"manchester"},
+  {"name":"Tony Hawks","org":"manchester"}
 ],
 "links":[
   {"source":1,"target":0,"value":5},

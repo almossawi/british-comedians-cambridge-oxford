@@ -33,8 +33,8 @@ function init() {
   d3.json('data/sussex.json', function(data_sussex) {
   d3.json('data/ucl.json', function(data_ucl) {
     doIt(data_cambridge, 'cambridge');
-    
-    doIt(data_oxford, 'oxford');
+
+    doIt(data_oxford, 'oxford');    
     flipTheBrotha('oxford', -502, -300, -44, -17, 15, -190);
     
     doIt(data_manchester, 'manchester');
