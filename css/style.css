@@ -105,6 +105,10 @@ a, a:active, a:link, a:visited {
   margin-top: -70px;
 }
 
+.brunel-container {
+  margin-top: -60px;
+}
+
 .salford-container {
   margin-top: -70px;
 }
@@ -141,6 +145,7 @@ a, a:active, a:link, a:visited {
   .durham-container,
   .edinburgh-container,
   .ucl-container,
+  .brunel-container,
   .salford-container,
   .sussex-container {
     margin-top: 0;

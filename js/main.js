@@ -13,7 +13,8 @@ var color = {
   edinburgh: '#91acdb',
   ucl: '#583094',
   salford: '#0e1f28',
-  sussex: '#0e1f28'
+  sussex: '#0e1f28',
+  brunel: '#5b8bc5'
   
 };
 
@@ -32,6 +33,7 @@ function init() {
   d3.json('data/salford.json', function(data_salford) {
   d3.json('data/sussex.json', function(data_sussex) {
   d3.json('data/ucl.json', function(data_ucl) {
+  d3.json('data/brunel.json', function(data_brunel) {
     doIt(data_cambridge, 'cambridge');
 
     doIt(data_oxford, 'oxford');    
@@ -59,7 +61,11 @@ function init() {
 
     doIt(data_ucl, 'ucl');
 
+    doIt(data_brunel, 'brunel');
+    flipTheBrotha('brunel', -502, -55, -44, -22, 15, -45);
+
     resize_svgs();
+  });
   });
   });
   });
